@@ -1,0 +1,74 @@
+#c1{
+    color: black;
+}
+
+
+.button {
+margin-top: 50px;
+    height: 60px;
+    width: 130px;
+
+    background-image: url('https://e0.pxfuel.com/wallpapers/706/70/desktop-wallpaper-guess-green-logo-green-brickwall-guess-logo-brands-guess-neon-logo-guess-thumbnail.jpg');
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container {
+    background-image: url(https://e0.pxfuel.com/wallpapers/550/835/desktop-wallpaper-guess-violet-logo-violet-brickwall-guess-logo-brands-guess-neon-logo-guess-thumbnail.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    width: 96vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#message {
+    display: none;
+    padding: 10px;
+    font-size: 24px;
+}
+
+input {
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#win{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdpfflSE4Mh_rizAxUm7KBG9y9VW45_7ymPg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    text-align: center;
+    font-size: 30px;
+    
+    
+    
+}
+#lost{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbKjArEPlWbWZ0iqB1bCaCPpMIctCdkaKvQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    text-align: center;
+    font-size: 30px;
+    
+    
+    
+}
